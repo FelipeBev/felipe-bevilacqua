@@ -1,5 +1,6 @@
 function Home() {
-  return <h1>Em construção</h1>;
+  const html = require("./html/index.html");
+  return html;
 }
 
 export default Home;
