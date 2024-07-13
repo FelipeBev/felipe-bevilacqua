@@ -1,5 +1,5 @@
 function Home() {
-  const index = require("./html/index.js");
+  const index = require("../models/html/index.js");
   return index.html;
 }
 
