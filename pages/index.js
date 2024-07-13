@@ -1,6 +1,6 @@
 function Home() {
-  const html = require("./html/index.html");
-  return html;
+  const index = require("./html/index.js");
+  return index.html;
 }
 
 export default Home;
