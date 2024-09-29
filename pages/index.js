@@ -1,4 +1,5 @@
 import styles from "../styles/Home.module.css"
+import felipe_img from "./minha_foto.jpeg"
 
 function Home() {
   return(
@@ -8,23 +9,24 @@ function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Felipe Alves Bevilacqua</title>
       </head>
-      <body>
-        <header>
+      <body class={styles.body}>
+        <header class={styles.header}>
           <h1>Felipe Alves Bevilacqua</h1>
         </header>
-        <nav>
-          <a href="#sobre">Sobre</a>
-          <a href="#portfolio">Portfólio</a>
-          <a href="#blog">Blog</a>
-          <a href="#contato">Contato</a>
+        <nav class={styles.nav}>
+          <a class={styles.a} href="#sobre">Sobre</a>
+          <a class={styles.a} href="#portfolio">Portfólio</a>
+          <a class={styles.a} href="#blog">Blog</a>
+          <a class={styles.a} href="#contato">Contato</a>
         </nav>
-        <section id="sobre">
+        <section class={styles.section} id="sobre">
           <div class={styles.container}>
-            <div class="card sobre">
+            <div class={styles.card}>
               <div class="row">
                 <div class="col">
                   <img
-                    src="../assets/minha_foto.jpeg"
+                    class={styles.img}
+                    src={felipe_img}
                     alt="Foto de Felipe Alves Bevilacqua"
                   />
                 </div>
@@ -46,31 +48,34 @@ function Home() {
             </div>
           </div>
         </section>
-        <section id="portfolio">
+        <section class={styles.section} id="portfolio">
           <div class={styles.container}>
-            <div class="card">
+            <div class={styles.card}>
               <h2>Portfólio</h2>
               <p>Em Construção.</p>
             </div>
           </div>
         </section>
-        <section id="blog">
+        <section class={styles.section} id="blog">
           <div class={styles.container}>
-            <div class="card">
+            <div class={styles.card}>
               <h2>Blog</h2>
               <p>Em Construção.</p>
             </div>
           </div>
         </section>
-        <section id="contato">
+        <section class={styles.section} id="contato">
           <div class={styles.container}>
-            <div class="card">
-              <h2>Contato</h2>
-              <p>WhatsApp: +55 19 9 8315-8939.</p>
+            <div class={styles.contato}>
+                <h2>Contato</h2>
+                <p>Linkedin -&gt; <a 
+                    href="https://www.linkedin.com/in/felipe-bevilacqua-612818206/">
+                    www.linkedin.com/in/felipe-bevilacqua</a>
+                </p>
             </div>
           </div>
         </section>
-        <footer>
+        <footer class={styles.footer}>
           <p>&copy; 2024 Felipe Alves Bevilacqua</p>
         </footer>
       </body>
