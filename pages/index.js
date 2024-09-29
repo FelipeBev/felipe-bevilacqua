@@ -1,5 +1,4 @@
 import styles from "../styles/Home.module.css"
-import felipe_img from "./minha_foto.jpeg"
 
 function Home() {
   return(
@@ -26,7 +25,7 @@ function Home() {
                 <div class="col">
                   <img
                     class={styles.img}
-                    src={felipe_img}
+                    src="../models/assets/minha_foto.jpeg"
                     alt="Foto de Felipe Alves Bevilacqua"
                   />
                 </div>
