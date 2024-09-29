@@ -8,17 +8,17 @@ function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Felipe Alves Bevilacqua</title>
       </head>
-      <body class={styles.body}>
-        <header class={styles.header}>
+      <body>
+        <header>
           <h1>Felipe Alves Bevilacqua</h1>
         </header>
-        <nav class={styles.nav}>
-          <a class={styles.nav.a} href="#sobre">Sobre</a>
-          <a class={styles.nav.a} href="#portfolio">Portfólio</a>
-          <a class={styles.nav.a} href="#blog">Blog</a>
-          <a class={styles.nav.a} href="#contato">Contato</a>
+        <nav>
+          <a href="#sobre">Sobre</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#blog">Blog</a>
+          <a href="#contato">Contato</a>
         </nav>
-        <section class={styles.section} id="sobre">
+        <section id="sobre">
           <div class={styles.container}>
             <div class="card sobre">
               <div class="row">
@@ -46,7 +46,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <section class={styles.section} id="portfolio">
+        <section id="portfolio">
           <div class={styles.container}>
             <div class="card">
               <h2>Portfólio</h2>
@@ -54,7 +54,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <section class={styles.section} id="blog">
+        <section id="blog">
           <div class={styles.container}>
             <div class="card">
               <h2>Blog</h2>
@@ -62,7 +62,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <section class={styles.section} id="contato">
+        <section id="contato">
           <div class={styles.container}>
             <div class="card">
               <h2>Contato</h2>
@@ -70,7 +70,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <footer class={styles.footer}>
+        <footer>
           <p>&copy; 2024 Felipe Alves Bevilacqua</p>
         </footer>
       </body>
