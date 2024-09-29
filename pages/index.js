@@ -19,29 +19,32 @@ function Home() {
           <a class={styles.a} href="#contato">Contato</a>
         </nav>
         <section class={styles.section} id="sobre">
-          <div class={styles.container}>
-            <div class={styles.card}>
-              <div class="row">
-                <div class="col">
-                  <img
-                    class={styles.img}
-                    src="../models/assets/minha_foto.jpeg"
-                    alt="Foto de Felipe Alves Bevilacqua"
-                  />
-                </div>
+          <div class={styles.sobre}>
+            <div class={styles.container}>
+              <div class={styles.card}>
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="/minha_foto.jpeg"
+                      alt="Foto de Felipe Alves Bevilacqua"
+                    />
+                  </div>
 
-                <div class="col">
-                  <h2>Sobre</h2>
-                  <p>
-                    Sou engenheiro de software com experiência Full Stack
-                    trabalhando com as linguagens Java, Javascript, Groovy,
-                    Typescript, HTML e HQL. Também utilizo as aplicações e
-                    metodologias IntelliJ, Maven, Springframework, Hibernate, Git,
-                    TDD, SOLID, Linux, PostgreSQL, Kanban, Jenkins, Docker, Angular
-                    e AWS. Trabalho na MAPS SA desde novembro de 2021 no
-                    desenvolvimento de funcionalidades referentes ao software de
-                    precificação de ativos financeiros e deploy de aplicações.
-                  </p>
+                  <div class="col">
+                    <div class={styles.texto}>
+                      <h2>Sobre</h2>
+                      <p>
+                        Sou engenheiro de software com experiência Full Stack
+                        trabalhando com as linguagens Java, Javascript, Groovy,
+                        Typescript, HTML e HQL. Também utilizo as aplicações e
+                        metodologias IntelliJ, Maven, Springframework, Hibernate, Git,
+                        TDD, SOLID, Linux, PostgreSQL, Kanban, Jenkins, Docker, Angular
+                        e AWS. Trabalho na MAPS SA desde novembro de 2021 no
+                        desenvolvimento de funcionalidades referentes ao software de
+                        precificação de ativos financeiros e deploy de aplicações.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

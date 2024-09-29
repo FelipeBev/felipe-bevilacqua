@@ -40,8 +40,14 @@
   bottom: 0;
 }
 
+.texto{
+  top: 0;
+  max-width: 100%;
+}
+
 .sobre img {
-  width: 150px;
+  margin: 0 auto;
+  width: 20%;
   border-radius: 50%;
 }
 
@@ -68,16 +74,4 @@
   padding: 20px;
   width: 100%;
   margin-bottom: 60px;
-}
-
-@media (max-width: 600px) {
-  .nav {
-    flex-direction: column;
-  }
-  .sobre {
-    text-align: center;
-  }
-  .sobre img {
-    margin: 0 auto;
-  }
 }
