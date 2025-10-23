@@ -1,0 +1,42 @@
+.section {
+    padding: 20px;
+  }
+  
+  .sobre p {
+    text-indent: 2%;
+    text-align: justify;
+  }
+  
+  .sobreImg {
+    border-radius: 50%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .nav {
+      flex-direction: column;
+    }
+  
+    .sobre {
+      text-align: center;
+    }
+  
+    .sobreImg {
+      margin: 0 auto;
+    }
+  }

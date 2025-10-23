@@ -7,26 +7,6 @@
   color: #333;
 }
 
-.header {
-  background-color: #4682b4;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.nav {
-  display: flex;
-  justify-content: center;
-  background-color: #87ceeb;
-  padding: 10px;
-}
-
-.nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-}
-
 .section {
   padding: 20px;
 }
@@ -34,16 +14,6 @@
 .sobre p {
   text-indent: 2%;
   text-align: justify;
-}
-
-.footer {
-  background-color: #4682b4;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
 }
 
 .sobreImg {
@@ -66,17 +36,47 @@
   width: 100%;
 }
 
+/* Estilos para a página Home */
+.homeLinks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.homeLink {
+  display: block;
+  padding: 1.5rem;
+  background-color: #0070f3;
+  color: white !important;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.homeLink:hover {
+  background-color: #0051cc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);
+  text-decoration: none;
+}
+
 @media (max-width: 600px) {
   .nav {
     flex-direction: column;
   }
-
   
   .sobre {
     text-align: center;
   }
-
+  
   .sobreImg {
     margin: 0 auto;
+  }
+  
+  .homeLinks {
+    grid-template-columns: 1fr;
   }
 }
