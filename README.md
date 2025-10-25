@@ -11,7 +11,7 @@ projeto/
 ├── pages/
 │   ├── _app.js                     → Layout global (Header, Menu, Footer)
 │   ├── index.js                    → Página inicial (/)
-│   └── section/
+│   └── secao/
 │       └── [slug].js               → Layout global (Header, Menu, Footer) 
 │                                       com conteúdo das seções em rotas dinâmicas (/secao/*)
 ├── components/
@@ -33,12 +33,10 @@ projeto/
 │       ├── blog/
 |       │   └── Blog.tsx            → Componente Blog
 │       └── contato/
-|       │   └── Contato.tsx         → Componente Contato
-|       └── sections.module.css
+|           └── Contato.tsx         → Componente Contato
 ├── data/
 │   └── sections.tsx                → Configuração das seções
 ├── styles/
-│   ├── globals.css
 │   └── Home.module.css
 ├── public/
 │   └── minha_foto.jpeg
@@ -75,9 +73,9 @@ projeto/
 
 ##  
 ```
-                                    ┌─────────────────────────┐
-                                    │    Felipe Bevilacqua    │
-                                    │                         │
-                                    │    Software Engineer    │
-                                    └─────────────────────────┘
+                                                    ┌─────────────────────────┐
+                                                    │    Felipe Bevilacqua    │
+                                                    │                         │
+                                                    │    Software Engineer    │
+                                                    └─────────────────────────┘
 ```
