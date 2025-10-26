@@ -36,10 +36,10 @@ export const sectionComponents = {
 
 export const menuItems = [
   { href: '/', label: 'Home' },
-  { href: '/secao/sobre', label: 'Sobre' },
-  { href: '/secao/portfolio', label: 'Portfólio' },
-  { href: '/secao/blog', label: 'Blog' },
-  { href: '/secao/contato', label: 'Contato' }
+  { href: '/sobre', label: 'Sobre' },
+  { href: '/portfolio', label: 'Portfólio' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/contato', label: 'Contato' }
 ];
 
 export const getSectionBySlug = (slug) => {

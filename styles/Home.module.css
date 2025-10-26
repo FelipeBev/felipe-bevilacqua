@@ -23,7 +23,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   max-width: 800px;
   margin: auto;
 }
@@ -47,7 +47,7 @@
 .homeLink {
   display: block;
   padding: 1.5rem;
-  background-color: #0070f3;
+  background-color: #51a1c1;
   color: white !important;
   text-align: center;
   border-radius: 8px;
@@ -57,7 +57,7 @@
 }
 
 .homeLink:hover {
-  background-color: #0051cc;
+  background-color: #2f7b98;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);
   text-decoration: none;

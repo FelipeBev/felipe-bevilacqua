@@ -1,7 +1,8 @@
 .nav {
   display: flex;
   justify-content: center;
-  background-color: #87ceeb;
+  background-color: #51a1c1;
+  margin-top: 1px;
   padding: 10px;
 }
 

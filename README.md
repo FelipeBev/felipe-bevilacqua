@@ -9,11 +9,10 @@
 ```
 projeto/
 ├── pages/
-│   ├── _app.js                     → Layout global (Header, Menu, Footer)
+│   ├── _app.tsx                    → Layout global (Header, Menu, Footer)
 │   ├── index.js                    → Página inicial (/)
-│   └── secao/
-│       └── [slug].js               → Layout global (Header, Menu, Footer) 
-│                                       com conteúdo das seções em rotas dinâmicas (/secao/*)
+│   └── [slug]/
+│       └── index.js                → conteúdo das seções em rotas dinâmicas (/*)
 ├── components/
 │   ├── basic-layout/
 │   │   ├── header/
@@ -65,10 +64,10 @@ projeto/
 
 ```
 "/"                                 → Home (com links para seções)
-"/secao/sobre"                      → Componente Sobre dentro do layout
-"/secao/portfolio"                  → Componente Portfolio dentro do layout
-"/secao/blog"                       → Componente Blog dentro do layout
-"/secao/contato"                    → Componente Contato dentro do layout
+"/sobre"                            → Componente Sobre dentro do layout
+"/portfolio"                        → Componente Portfolio dentro do layout
+"/blog"                             → Componente Blog dentro do layout
+"/contato"                          → Componente Contato dentro do layout
 ```
 
 ##  

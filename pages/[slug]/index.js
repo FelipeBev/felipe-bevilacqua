@@ -2,9 +2,6 @@ import Head from "next/head";
 import { useRouter } from 'next/router';
 import { getSectionBySlug, getAllSections } from '../../data/sections';
 import styles from '../../styles/Home.module.css';
-import MyFooter from "../../components/basic-layout/footer/footer";
-import MyHeader from "../../components/basic-layout/header/header";
-import MyMenu from "../../components/basic-layout/menu/menu";
 import { sectionComponents } from '../../data/sections';
 
 export default function Section({ sectionData }) {
@@ -15,8 +12,11 @@ export default function Section({ sectionData }) {
     return (
       <>
         <Head>
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Carregando...</title>
         </Head>
+
         <section className={styles.section}>
           <div className={styles.container}>
             <div className={styles.card}>
@@ -33,8 +33,11 @@ export default function Section({ sectionData }) {
     return (
       <>
         <Head>
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Página não encontrada</title>
         </Head>
+
         <section className={styles.section}>
           <div className={styles.container}>
             <div className={styles.card}>
@@ -51,22 +54,16 @@ export default function Section({ sectionData }) {
   const SectionComponent = sectionComponents[sectionData.slug];
 
   return (
-    <div>
+    <>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Felipe Alves Bevilacqua</title>
+        <title>{sectionData.title} - Felipe Alves Bevilacqua</title>
       </Head>
 
-      <div className={styles.body}>
-        <MyHeader />
-        <MyMenu />
-        
-        <SectionComponent />
-      
-        <MyFooter />
-      </div>
-    </div>
+
+      <SectionComponent />
+    </>
   );
 }
 
