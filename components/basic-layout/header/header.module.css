@@ -5,3 +5,9 @@
   padding: 20px;
   text-align: center;
 }
+
+h1 {
+  font-weight: bold !important;
+  font-size: 32px !important;
+  margin: 0px;
+}
