@@ -8,10 +8,27 @@
 }
 
 .nav a {
-  height: 20px;
   margin: 0 15px;
   color: white;
   text-decoration: none;
   font-weight: bold !important;
   font-size: 16px !important;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+  
+  .sobre {
+    text-align: center;
+  }
+  
+  .sobreImg {
+    margin: 0 auto;
+  }
+  
+  .homeLinks {
+    grid-template-columns: 1fr;
+  }
 }
