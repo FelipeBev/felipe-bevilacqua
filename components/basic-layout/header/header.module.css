@@ -1,6 +1,9 @@
 .my-header {
+  height: fit-content;
   background-color: #4682b4;
   color: white;
   padding: 20px;
   text-align: center;
+  font-weight: bold;
+  font-size: 32px;
 }
