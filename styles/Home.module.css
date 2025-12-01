@@ -36,6 +36,49 @@
   width: 100%;
 }
 
+.my-header {
+  height: fit-content !important;
+  background-color: #4682b4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.my-header h1 {
+  font-weight: bold !important;
+  font-size: 32px !important;
+  margin: 0px !important;
+}
+
+.nav {
+  height: fit-content !important;
+  display: flex;
+  justify-content: center;
+  background-color: #51a1c1;
+  margin-top: 1px;
+  padding: 10px;
+}
+
+.nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+
+.my-footer {
+  background-color: #4682b4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: fit-content !important;
+  font-size: 16px !important;
+}
+
 /* Estilos para a página Home */
 .homeLinks {
   display: grid;
