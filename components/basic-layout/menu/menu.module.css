@@ -8,7 +8,7 @@
 }
 
 .nav a {
-  height: fit-content !important;
+  height: 20px;
   margin: 0 15px;
   color: white;
   text-decoration: none;
