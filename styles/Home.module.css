@@ -60,6 +60,7 @@
 }
 
 .nav a {
+  height: fit-content !important;
   margin: 0 15px;
   color: white;
   text-decoration: none;
