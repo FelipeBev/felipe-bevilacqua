@@ -22,9 +22,11 @@ h1 {
 }
 
 .nav a {
+  height: 24px;
   margin: 0 15px;
   color: white;
   text-decoration: none;
+  text-align: center;
   font-weight: bold !important;
   font-size: 16px !important;
 }
