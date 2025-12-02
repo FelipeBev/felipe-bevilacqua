@@ -82,6 +82,10 @@
   font-size: 16px !important;
 }
 
+.my-footer p {
+  margin: 0px;
+}
+
 /* Estilos para a página Home */
 .homeLinks {
   display: grid;
