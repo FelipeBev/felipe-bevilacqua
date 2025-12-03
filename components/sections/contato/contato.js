@@ -12,7 +12,7 @@ const Contato = () => {
             </svg>
             &nbsp;
             <a 
-              href="contato@felipebevilacqua.dev.br"
+              href="mailto:contato@felipebevilacqua.dev.br"
               target="_blank"
               rel="noopener noreferrer"
               class="contato-link"
