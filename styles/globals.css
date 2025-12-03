@@ -63,8 +63,13 @@ h1 {
 }
 
 .sobre p {
-  text-indent: 2%;
+  text-indent: 1%;
   text-align: justify;
+  font-size: 16px;
+}
+
+.sobre svg {
+  vertical-align: text-top;
 }
 
 .sobreImg {
@@ -126,6 +131,7 @@ h1 {
   }
   
   .sobre {
+    vertical-align: middle;
     text-align: center;
   }
   
