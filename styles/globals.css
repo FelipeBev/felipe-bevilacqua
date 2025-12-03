@@ -88,6 +88,11 @@ h1 {
   width: 100%;
 }
 
+.contato-link {
+  color: black;
+  text-decoration: none;
+}
+
 /* Estilos para a página Home */
 .homeLinks {
   display: grid;
